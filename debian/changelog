@@ -1,3 +1,9 @@
+calamares-settings-deepin (1.0.2) unstable; urgency=medium
+
+  * disable automount for dde-file-manager
+
+ -- bluesky <chenchongbiao@deepin.org>  Tue, 15 Jul 2025 17:45:43 +0800
+
 calamares-settings-deepin (1.0.1) unstable; urgency=medium
 
   * Fix error grub install
