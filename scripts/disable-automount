@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Running disable automount for dde-file-manager..."
+
+if [ ! -d /sys/firmware/efi/efivars ]; then
+    echo " * install grub... (bios), skipping automount configuration"
+    USER="$(ls /home | head -n 1)"
+    DDE_FILE_CONFIG="/home/$USER/.config/deepin/dde-file-manager.json"
+    echo "{\"GenericAttribute\": {\"AutoMount\": false}}" > "$DDE_FILE_CONFIG"
+fi
