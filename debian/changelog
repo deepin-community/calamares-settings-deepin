@@ -1,9 +1,15 @@
-calamares-settings-deepin (1.0.2) unstable; urgency=medium
+calamares-settings-deepin (1.0.3) unstable; urgency=medium
 
   * Fix missing apt logs in chroot and refactor mount.conf
   * Change default btrfs compression from lzo to zstd:3
 
  -- liweigang <liweiganga@gmail.com>  Fri, 24 Apr 2026 10:15:30 +0800
+
+calamares-settings-deepin (1.0.2) unstable; urgency=medium
+
+  * disable automount for dde-file-manager
+
+ -- bluesky <chenchongbiao@deepin.org>  Tue, 15 Jul 2025 17:45:43 +0800
 
 calamares-settings-deepin (1.0.1) unstable; urgency=medium
 

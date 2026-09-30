@@ -1,0 +1,6 @@
+---
+type:       "job"
+name:       "disable-automount"
+interface:  "process"
+command:    "/usr/sbin/disable-automount"
+timeout:    600
